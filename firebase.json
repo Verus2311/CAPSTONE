@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "site": "tee-green-spa-d13d8",
+    "public": "admin/appointments",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+} 
